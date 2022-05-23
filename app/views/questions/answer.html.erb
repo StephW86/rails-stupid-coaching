@@ -1,0 +1,16 @@
+<h1>Stupid Coaching</h1>
+
+<div class="you">
+  <blockquote class="blockquote">
+    <p><%= @question %></p>
+    <p><em>-You</em></p>
+  </blockquote>
+</div>
+<div class="coach">
+  <blockquote class="blockquote">
+    <p><%= @answer %></p>
+    <p><em>-Your coach</em></p>
+  </blockquote>
+</div>
+
+<%= link_to "Ask a new question", ask_path, class:"link-secondary" %>
